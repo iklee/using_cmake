@@ -1,0 +1,3 @@
+/Users/lee/cmake_test/example/build/mac/CMakeFiles/my_project.dir
+/Users/lee/cmake_test/example/build/mac/CMakeFiles/ALL_BUILD.dir
+/Users/lee/cmake_test/example/build/mac/CMakeFiles/ZERO_CHECK.dir

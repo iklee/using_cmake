@@ -13,7 +13,7 @@
 
 void LoadImage()
 {
-    std::string path = "/Users/lee/Downloads/foot_MIP.png";
+    std::string path = "../data/test1.jpg";
     IplImage * img = cvLoadImage(path.data());
     cvNamedWindow("Load_Image", CV_WINDOW_AUTOSIZE);
     cvShowImage("Load_Image", img);

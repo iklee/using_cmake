@@ -13,7 +13,12 @@
 
 void LoadImage()
 {
+#if defined(__APPLE__) && defined(__MACH__)
     std::string path = "../data/test1.jpg";
+#else
+    std::string path = "data/test1.jpg";
+#endif
+
     IplImage * img = cvLoadImage(path.data());
     cvNamedWindow("Load_Image", CV_WINDOW_AUTOSIZE);
     cvShowImage("Load_Image", img);
